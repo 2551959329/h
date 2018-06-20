@@ -1,0 +1,76 @@
+/*学校*/
+
+/*导航栏*/
+/*#nav1{
+	width: 100%;
+	border: 1px solid red;
+}*/
+/*#nav1 img{
+	margin-left: 20px;
+}*/
+/*#nav1 ul{
+	margin-left: 15px;
+}*//*
+#nav1 ul>li{
+	margin-top: 15px;
+}*/
+
+/*导航栏链接*/
+#nav1 ul li{
+	padding:0 0.5px;
+	font-size: 16px;
+}
+#nav1 ul li a{
+	color: #414141;
+	/*text-shadow: 1px 1px 5px rgba(0,0,0,.6);*/
+	background: transparent;
+}
+#nav1 ul > li > a::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 60%;
+	height: 4px;
+	background: #00428e;
+	opacity: 0;
+	transition: all .35s;
+	transform: translateY(5px) translateX(-50%);
+}
+
+#nav1 ul > li > a:hover::after {
+	opacity: 1;
+	transform: translateY(-5px) translateX(-50%);
+}
+/*轮播图*/
+.swiper-container .swiper-wrapper div>img{
+	width: 100%;
+}
+
+
+/*轮播图结束*/
+/*页脚*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
